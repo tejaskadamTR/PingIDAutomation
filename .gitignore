@@ -1,0 +1,43 @@
+# Sensitive configuration files
+config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.auth/
+
+# Allure
+allure-results/
+allure-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots and videos
+screenshots/
+videos/
+
+# Logs
+*.log
